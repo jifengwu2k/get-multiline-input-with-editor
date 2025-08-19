@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "get-multiline-input-with-editor"
+version = "0.1.0a3"
+description = "Opens a text editor for multi-line input, returns input as a Unicode string. Just like what Git does."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "get-args-to-launch-editor"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/get-multiline-input-with-editor"
+"Bug Tracker" = "https://github.com/jifengwu2k/get-multiline-input-with-editor/issues"
